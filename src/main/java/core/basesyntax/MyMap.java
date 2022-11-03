@@ -14,4 +14,6 @@ public interface MyMap<K, V> {
     boolean containsKey(Object key);
 
     Collection<V> values();
+
+    void clear();
 }
